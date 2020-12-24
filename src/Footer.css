@@ -1,0 +1,13 @@
+.footer {
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(241, 222, 222);
+  background-color: rgb(170, 101, 101);
+}
+
+.footer a {
+  color: rgb(255, 255, 255);
+}

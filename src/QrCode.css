@@ -1,0 +1,37 @@
+.qrCode {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 50px 0;
+}
+
+.qrCode > h2 {
+  font-size: 1.65rem;
+  color: rgb(16, 19, 71);
+  margin: 15px auto;
+  text-align: center;
+}
+
+.qrCode > img {
+  object-fit: contain;
+  width: 65%;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.qrCode > .MuiButton-root {
+  margin-top: 20px;
+  width: 65%;
+  max-width: 300px;
+}
+
+/* Media Query */
+@media only screen and (min-width: 500px) {
+  .qrCode > h2 {
+    font-size: 2rem !important;
+  }
+}
+/* Media Query */
